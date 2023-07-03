@@ -1,4 +1,4 @@
-# Reflective Journaling Tool
+# Journaling with GTasks
 
 ## Introduction
 
@@ -10,7 +10,7 @@ The main purpose of this tool is to help users grow and learn through reflective
 
 ## Intended Audience
 
-The intended audience for this tool is anyone who is interested in using reflective writing as a tool for personal growth and learning. This includes the creator of the tool, as well as anyone who wants to create a similar tool for themselves.
+The intended audience for this tool is anyone who is interested in using reflective writing as a tool for personal growth and learning. 
 
 ## Requirements
 
@@ -18,8 +18,7 @@ The intended audience for this tool is anyone who is interested in using reflect
 
 - **Frictionless and Intuitive Journal Entries:** The tool should provide an easy and intuitive way for users to create journal entries using any Google Tasks app, including the native Google Tasks panel in Google Workspace. This will encourage users to engage in regular journaling about anything that comes to mind.
 - **Automatic Labeling and Summarizing of Entries:** The tool should automatically label and summarize journal entries as they are imported into a Google Spreadsheet. This will make it easier for users to review and analyze their entries at a later time.
-- **Generation of Insightful Reports:** The tool should provide the ability to generate insightful reports about the user’s journaling habits and the content of their entries. This will help users gain a deeper understanding of their thoughts and behaviors, and identify areas for personal growth and improvement.
-
+  
 ### Non-Functional Requirements
 
 - **Usability of Data for Insights:** The data collected by the tool should be easily usable for generating insights into the user’s journaling habits and the content of their entries. This will help users make the most of the tool and achieve their personal growth goals.
@@ -41,3 +40,7 @@ The tool provides a user interface in the form of a Google Spreadsheet, where us
 ## Implementation
 
 The tool is implemented using App Script, along with several APIs provided by Google (Tasks API, Sheet API) and OpenAI (GPT-3.5 Turbo).
+
+## Getting Started
+
+To get started with using this tool, you can make a copy of this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17E_Q152dVUw7MTGq_MCB-hyDpCzgmYTjjvaaBOIuG0c/edit?usp=sharing) for your own use.
