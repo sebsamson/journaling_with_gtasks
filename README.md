@@ -1,15 +1,16 @@
-# Journaling with GTasks
+# Reflective Journaling Tool
 
 ## Introduction
 
 This tool uses Google Tasks and Google Spreadsheet to facilitate reflective journaling and metacognition. It allows users to easily create journal entries using any Google Tasks app, including the native Google Tasks panel in Google Workspace. The entries are then imported into a Google Spreadsheet, where they are automatically labeled and summarized using OpenAI’s GPT-3.5 Turbo.
+
 ## Purpose
 
 The main purpose of this tool is to help users grow and learn through reflective writing. By making it easy to create journal entries and providing insights into their content, the tool encourages users to engage in regular self-reflection and metacognition.
 
 ## Intended Audience
 
-The intended audience for this tool is anyone who is interested in using reflective writing as a tool for personal growth and learning. 
+The intended audience for this tool is anyone who is interested in using reflective writing as a tool for personal growth and learning. This includes the creator of the tool, as well as anyone who wants to create a similar tool for themselves.
 
 ## Requirements
 
@@ -17,7 +18,7 @@ The intended audience for this tool is anyone who is interested in using reflect
 
 - **Frictionless and Intuitive Journal Entries:** The tool should provide an easy and intuitive way for users to create journal entries using any Google Tasks app, including the native Google Tasks panel in Google Workspace. This will encourage users to engage in regular journaling about anything that comes to mind.
 - **Automatic Labeling and Summarizing of Entries:** The tool should automatically label and summarize journal entries as they are imported into a Google Spreadsheet. This will make it easier for users to review and analyze their entries at a later time.
-  
+
 ### Non-Functional Requirements
 
 - **Usability of Data for Insights:** The data collected by the tool should be easily usable for generating insights into the user’s journaling habits and the content of their entries. This will help users make the most of the tool and achieve their personal growth goals.
@@ -43,3 +44,18 @@ The tool is implemented using App Script, along with several APIs provided by Go
 ## Getting Started
 
 To get started with using this tool, you can make a copy of this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17E_Q152dVUw7MTGq_MCB-hyDpCzgmYTjjvaaBOIuG0c/edit?usp=sharing) for your own use.
+
+## Named Ranges
+
+The following named ranges are used in the scripts:
+
+- `myDataRange`: This named range should refer to the range of cells in the "Tasks Import" sheet that contains the data for all journal entries.
+- `mySubjectRange`: This named range should refer to the range of cells in the "Tasks Import" sheet that contains the subject for all journal entries.
+- `myLabelsRange`: This named range should refer to the range of cells in the "Tasks Import" sheet that contains the labels for all journal entries.
+- `mySummaryRange`: This named range should refer to the range of cells in the "Tasks Import" sheet that contains the summary for all journal entries.
+- `TaskIdColumn`: This named range should refer to the column in the "Tasks Import" sheet that contains the task ID for all journal entries.
+- `var_listName`: This named range should refer to a single cell that contains the name of the Google Tasks list to import tasks from.
+- `ModifiedDateColumn`: This named range should refer to the column in the "Tasks Import" sheet that contains the modified date for all journal entries.
+- `TitleColumn`: This named range should refer to the column in the "Tasks Import" sheet that contains the title for all journal entries.
+- `DescriptionColumn`: This named range should refer to the column in the "Tasks Import" sheet that contains the description for all journal entries.
+- `var_apiKey`: This named range should refer to a single cell that contains an API key for accessing OpenAI's GPT-3.5 Turbo model.
