@@ -1,4 +1,4 @@
-# Reflective Journaling Tool
+# Journaling with GTasks
 
 ## Introduction
 
