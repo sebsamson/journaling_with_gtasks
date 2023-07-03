@@ -2,8 +2,7 @@
 
 ## Introduction
 
-This tool uses Google Tasks and Google Spreadsheet to facilitate reflective journaling and metacognition. It allows users to easily create journal entries using any Google Tasks app, including the native Google Tasks panel in Google Workspace. The entries are then imported into a Google Spreadsheet, where they are automatically labeled and summarized using OpenAI’s GPT-3.5 Turbo. The tool also provides the ability to generate insightful reports about the user’s journaling habits and the content of their entries.
-
+This tool uses Google Tasks and Google Spreadsheet to facilitate reflective journaling and metacognition. It allows users to easily create journal entries using any Google Tasks app, including the native Google Tasks panel in Google Workspace. The entries are then imported into a Google Spreadsheet, where they are automatically labeled and summarized using OpenAI’s GPT-3.5 Turbo.
 ## Purpose
 
 The main purpose of this tool is to help users grow and learn through reflective writing. By making it easy to create journal entries and providing insights into their content, the tool encourages users to engage in regular self-reflection and metacognition.
@@ -35,7 +34,7 @@ The tool uses several algorithms to fetch tasks from a specified Google Tasks li
 
 ### Interfaces
 
-The tool provides a user interface in the form of a Google Spreadsheet, where users can view the imported tasks and their associated labels and summaries. The tool also provides an interface for generating reports based on the data in the spreadsheet.
+The tool provides a user interface in the form of a Google Spreadsheet, where users can view the imported tasks and their associated labels and summaries.
 
 ## Implementation
 
