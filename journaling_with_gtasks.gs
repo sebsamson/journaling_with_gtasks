@@ -6,6 +6,7 @@
  * The entries are then imported into a Google Spreadsheet, where they are automatically labeled and summarized using OpenAI’s GPT-3.5 Turbo.
  * 
  * To use this tool, you will need to create a new Google Apps Script project in your own Google Spreadsheet "App Sript" editor available under "Extensions" and copy the code from this file into the script editor.
+ * The script uses the Tasks API and the Sheet API which need to be added manually to the Services in the App Script Editor
  * You will also need to set up a Google Spreadsheet with the appropriate named ranges and columns to store the imported tasks and their associated labels and summaries.
  * See the README file in this repository for more detailed instructions on how to set up and use this tool.
  */
