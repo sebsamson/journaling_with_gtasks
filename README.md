@@ -44,6 +44,7 @@ The tool is implemented using App Script, along with several APIs provided by Go
 ## Getting Started
 
 To get started with using this tool, you can make a copy of this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/17E_Q152dVUw7MTGq_MCB-hyDpCzgmYTjjvaaBOIuG0c/edit?usp=sharing) for your own use.
+You can [obtain your Open AI API Key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) on the official Open AI website in your settings 
 
 ## Named Ranges
 
